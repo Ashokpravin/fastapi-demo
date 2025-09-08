@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hellooooo, Katonic FastAPI!"}
+    return {"message": "Welcome to Katonic AI...!"}
 
 @app.get("/hello/{name}")
 def say_hello(name: str):
